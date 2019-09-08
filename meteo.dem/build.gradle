@@ -1,0 +1,180 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+project.ext.projectName = 'meteo.ducts'
+project.ext.lwjglVersion = "2.9.2"
+project.ext.geotoolsVersion = "13.2"
+project.ext.gdxVersion = "1.7.1"
+
+
+sourceSets {
+    main.java.srcDirs += 'src'
+    test.java.srcDirs += 'tests/src'
+}
+startScripts {
+  	mainClassName = "meteo.Main"
+ 	applicationName = 'meteo-ducts'
+  	classpath = files('lib\\*')
+    classpath += files('etc')
+      doLast {
+        def windowsScriptFile = file getWindowsScript()
+        def unixScriptFile = file getUnixScript()
+        windowsScriptFile.text = windowsScriptFile.text.replace('%APP_HOME%\\lib\\etc', '%APP_HOME%\\etc')
+        unixScriptFile.text = unixScriptFile.text.replace('$APP_HOME/lib/etc', '$APP_HOME/etc')
+    }
+}
+distZip {
+	mainClassName = "meteo.Main"
+	
+    into(project.name+"-"+project.version) {
+        from '.'
+        
+        // configurations:
+        include 'etc/**'   
+        
+        // resources:             
+        include 'res/**'  
+         
+        // documentation:
+        include 'doc/**'             
+  
+        // logistic folders:
+        include 'data/output'
+        include 'data/error'
+        include 'data/done'
+        
+        include 'data/static/**'
+
+        project.file('data/input').mkdirs()
+        project.file('data/output').mkdirs()
+        project.file('data/error').mkdirs()
+        project.file('data/done').mkdirs()
+        
+        include 'log'
+    }	
+
+} 
+
+
+repositories {
+	mavenCentral()   
+	maven { url "http://mvnrepository.com/artifact" }
+	maven { url "http://download.osgeo.org/webdav/geotools/" }
+ 	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }	
+	maven { url "https://artifacts.unidata.ucar.edu/content/repositories/unidata-releases/" }
+	flatDir {
+		dirs 'lib'
+	}
+}
+
+configurations.all {
+    exclude group: 'javax.media'
+}
+
+dependencies {
+
+    //compile name project(":meteo.ducts.api") 
+    //compile name: "meteo.ducts.api"
+ 
+    compile name: "meteo-assimilation-1.0.0"
+    compile name: "midas.core-1.0.0"
+    compile name: "midas.visual-1.0.0"
+    compile name: "jai_core-1.1.3"
+    compile name: "jai_codec-1.1.3"
+    compile name: "jai_imageio-1.1.1"
+//    compile name: 'jscience-4.3.1.nogeotools'
+    compile name: 'aopalliance-1.0'
+    compile name: 'javax.inject-1'
+    compile name: "slf4j-api-1.7.20"
+    compile name: 'logback-classic-1.1.7'
+	compile name: 'logback-core-1.1.7'
+//    compile name: "netty-all-4.0.4.Final"
+
+    compile "org.geotools:gt-shapefile:${geotoolsVersion}"
+    compile "org.geotools:gt-swing:${geotoolsVersion}"
+    compile "org.geotools:gt-grid:${geotoolsVersion}"
+    compile "org.geotools:gt-epsg-hsql:${geotoolsVersion}"
+    compile "org.geotools:gt-geotiff:${geotoolsVersion}"
+//    compile "it.geosolutions.jaiext.utilities:jt-utilities:1.1.9"
+
+//    compile 'org.imgscalr:imgscalr-lib:4.2'
+
+    /////////////////////////////////////////////////
+	// N-dim arrays potentially backed by CUDA
+	//
+    //compile 'org.nd4j:nd4j-native-platform:0.4.0'
+
+    /////////////////////////////////////////////////
+	// String expression evaluator
+	// TODO: this one lacks exp compilation, which bothers me
+//	compile name:'javaluator-3.0.1'
+
+    // ucar libs for reading grib and netcdf files:
+	// netcdf reader:
+	compile 'edu.ucar:netcdf4:4.6.2'
+	// grib reader:
+	compile 'edu.ucar:grib:4.6.2'
+	compile 'edu.ucar:cdm:4.6.2'
+	
+	// utilities    
+
+	compile 'net.sf.trove4j:trove4j:3.0.3'
+	// logging:
+	// compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.+'
+	//compile name: 'Jama-1.0.3'
+	compile 'gov.nist.math:jama:1.0.3'
+
+	// calculation units and measures
+	// compile 'org.jscience:jscience:4.3.1'
+    
+	compile "org.imgscalr:imgscalr-lib:4.2"
+    // libgdx visualization:
+    compile "com.badlogicgames.gdx:gdx:1.7.1"
+	//compile name: "gdx-1.7.1"
+	
+    /////////////////////////////////////////////////
+    // libgdx visualization:
+    
+    compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+    //compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"	
+	//compile "org.lwjgl.lwjgl:lwjgl:${lwjglVersion}"
+ // //  compile "com.badlogicgames.gdx:gdx-platform:1.7.1:natives-desktop"
+ //   compile "com.badlogicgames.ashley:ashley:1.6.0" 
+    compile "org.projectlombok:lombok:1.16.2"
+    
+ 	compile "com.google.inject:guice:4.1.0"
+    compile "com.google.guava:guava:19.0"
+    compile 'com.google.code.gson:gson:2.7'
+    //compile "com.google.code.findbugs:annotations:2.0.1"
+    
+    compile "org.reflections:reflections:0.9.10"
+    compile "org.apache.commons:commons-lang3:3.1"
+    compile "org.apache.commons:commons-io:2.4"
+    
+    //compile name: "je-7.3.7"
+	//compile name:'jcommander-1.35'
+    
+    //compile group: 'org.apache.commons', name: 'commons-imaging', version: '1.0-r1653468'
+}
+
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': projectName,
+                   'Implementation-Version': version
+    }
+}
+
+
+eclipse {
+	project {
+  		natures 'org.springsource.ide.eclipse.gradle.core.nature'
+  		name = projectName
+	}
+}
+
+

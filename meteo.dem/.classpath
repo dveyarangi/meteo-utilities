@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/meteo-assimilation-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/midas.visual-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/jai_core-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/jai_codec-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/jai_imageio-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/javax.inject-1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/slf4j-api-1.7.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/logback-classic-1.1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/logback-core-1.1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-shapefile/13.2/d37de901e9e66a4aed980d0518a7a5e641a92f8a/gt-shapefile-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-shapefile/13.2/69a882db4d4db7dd69807f8c10a24673f148f1c6/gt-shapefile-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-swing/13.2/b150a71c9d8409c899505d8024367aa5b09bba29/gt-swing-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-swing/13.2/92da249f4471b4db876550923fde105e7a776008/gt-swing-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-grid/13.2/127615014dd8c84160c728fa5df6394a195aad2d/gt-grid-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-grid/13.2/81019c8435844f8d5d3ca48a1f6a924301e16bf8/gt-grid-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/13.2/650786f7a4ccea33ab04f72935543b8b6c768378/gt-epsg-hsql-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/13.2/182a319cd1b5cecaa8b2bd0da9a4475b9f8c53cc/gt-epsg-hsql-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-geotiff/13.2/1c4bff494c263e013e801e828ead7ba421c02588/gt-geotiff-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-geotiff/13.2/74f2e09e40f2fa430e91b79f493464af650576d7/gt-geotiff-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/netcdf4/4.6.2/639a937af1c25eb29ee2863a8ff8d9c6ecba1fb1/netcdf4-4.6.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/netcdf4/4.6.2/4f0d17eb7eef562f6833ad886559faf20733c43d/netcdf4-4.6.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/grib/4.6.2/56647a124c0fc6888926ead4deea741b400f67ff/grib-4.6.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/grib/4.6.2/61e7209040d18e80f770a2e8adfcb8df2842d932/grib-4.6.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/cdm/4.6.2/2968a03e4f1b0d7b469943a9d26d5279b93efd49/cdm-4.6.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/cdm/4.6.2/4d0664a34abee0907d99908f65bc2ca452ddaaad/cdm-4.6.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/109c5be93362e6e651e417c51d1863477a22969c/trove4j-3.0.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/gov.nist.math/jama/1.0.3/8bcf5a314b76cadd68daa37eafe0a46d8909ab47/jama-1.0.3.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/gov.nist.math/jama/1.0.3/20096c609fe3bfc8eec7654529da763ff1015d32/jama-1.0.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.imgscalr/imgscalr-lib/4.2/e2838f7119361511ef7d54fe0d502bf07f3325eb/imgscalr-lib-4.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.imgscalr/imgscalr-lib/4.2/6f26f63bff5909d200dec424d2e7460190e4ae09/imgscalr-lib-4.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.7.1/d4531b364d1c2513cb99e7bdd9515ae317007cf5/gdx-backend-lwjgl-1.7.1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.7.1/be1fd59836cdefcdc60bb524026af6f3926e0bc/gdx-backend-lwjgl-1.7.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.7.1/2179cc613447c297623a4a6d2ba6692c3aaff804/gdx-1.7.1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.7.1/a1fd092a4cdeb029ddb205805143a26545de1e6b/gdx-1.7.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.2/abcc131bb227dcdd30437ee1cc164579767b03b4/lombok-1.16.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.2/d290f2c24acbbd5c036b1091e4bd149e2fe9877c/lombok-1.16.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/eeb69005da379a10071aa4948c48d89250febb07/guice-4.1.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/3f43f7c8743238f310246cfb13ba3e2e1aca6655/guice-4.1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/c7f4ea230aedc757ca1499ebcfb2953c81cf8b67/reflections-0.9.10.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/606b8587dab0bf1776b896003f2a2fa0470bb105/reflections-0.9.10-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.guava/guava/19.0/91a4d115400e904f22b03a78deb355e9ea803cd4/guava-19.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/bbb63ca253b483da8ee53a50374593923e3de2e2/gson-2.7-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/8d30b90ae8bda4fbac8363161c8a9b5a99e23baf/commons-lang3-3.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Development/workspaces/meteo/meteo.dem/lib/commons-io-2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-data/13.2/7078e2ab0cde2d88038e7bff81c9f2f7ba19de5b/gt-data-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-data/13.2/a78337971ccebce283333e7c27f2a699fd1bfce/gt-data-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-render/13.2/6696b8c41c637ecfc80b1c4a7db6f670910a25bc/gt-render-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-render/13.2/67f4797d844543c19315f6132d919300dfff37ac/gt-render-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-coverage/13.2/2ffe95345e0c778dd4c87949b8a924799123a772/gt-coverage-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-coverage/13.2/a06fa7a66a3d66ed3eaf3d46229e795ac03e340e/gt-coverage-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-cql/13.2/29953e0ba0bffbc57651811414f6a67e6a29ee8b/gt-cql-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-cql/13.2/3cac1c12a90cf13c164fe73996d2c453220021a4/gt-cql-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-main/13.2/992637c26959a8b2fe4e851aed292d226e693c2d/gt-main-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-main/13.2/c8ad29009575018e6a700f783fc50b42930a18c7/gt-main-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jdom/jdom/1.1.3/8bdfeb39fa929c35f5e4f0b02d34350db39a1efc/jdom-1.1.3.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jdom/jdom/1.1.3/b8b961a9f20d1faf160681c49f773a66b87efd63/jdom-1.1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-api/13.2/7a2330c7a4aa259f7c64027e0fb2d32cc93d11ce/gt-api-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-api/13.2/48a573f3d09b8cd016b7d5aee2b1d3d1fba3737d/gt-api-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-referencing/13.2/f4ee2c90c63ab5760ec53636425d2e7acd918978/gt-referencing-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-referencing/13.2/113b29b6c0da65e5fa371eb9f3a17b76b71ece3c/gt-referencing-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.miglayout/miglayout/3.7/fb917dac961254efe766b45d528ce71c7328669f/miglayout-3.7-swing.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.miglayout/miglayout/3.7/f932082c7b086bf324cb709fd642b218e4bc622/miglayout-3.7-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.2.8/8231a3ff71ba5889f9e2d01ce13503cbdd4038e9/hsqldb-2.2.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-tiff/1.1.11/bdac3dd761c59a9b45e013b748268954f5c51b11/imageio-ext-tiff-1.1.11.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-tiff/1.1.11/99da69f4d22781b88a5a588f10edf424727f0e05/imageio-ext-tiff-1.1.11-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/28a5d592b494fe54c120c64689087e779a7bf55b/jna-4.1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/httpservices/4.6.2/3fd889d4ea21df94bf9cf5480e43e6334067f8c9/httpservices-4.6.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/httpservices/4.6.2/327278c160ea4d3596a64a1149442d2267f3d45e/httpservices-4.6.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.2.0/2eb16fce055d5f3c9d65420f6fc4efd3a079a3d8/quartz-2.2.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.2.0/326762c463fd642d2e99f513c830a7bed17723e7/quartz-2.2.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.5.0/a10732c76bfacdbd633a7eb0f7968b1059a65dfa/protobuf-java-2.5.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.5.0/7a27a7fc815e481b367ead5df19b4a71ace4a419/protobuf-java-2.5.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.4/4b65e55cc61b34bc634b25f0359d1242e4c519de/jdom2-2.0.4.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.4/4c83993a65f25aeaa433d3591fbc3cf34edccfbe/jdom2-2.0.4-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/833f425e7a40d7fc88922370a072965dda8ee216/jsoup-1.7.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/udunits/4.6.2/50eec7a39ae191f2ac358410fb7aeddf222d03d4/udunits-4.6.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/udunits/4.6.2/5b58b6596ee083817fce4b6fcbd2e1d55ba56c07/udunits-4.6.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/d853625d8001c00d40abed553e670279504699f9/jcip-annotations-1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/jj2000/5.3/97675e1aca299b5d1d8a6c5536acc1c3afcd3e53/jj2000-5.3.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/edu.ucar/jj2000/5.3/cc6af68a8c1af1ed5502bc59c4de69329aafa4e5/jj2000-5.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/joda-time/joda-time/2.2/ad622e3cfe39319ea53b183aa5615f96ff346584/joda-time-2.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.beust/jcommander/1.35/47592e181b0bdbbeb63029e08c5e74f6803c4edd/jcommander-1.35.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.beust/jcommander/1.35/a80acda9d5c2aa80afb8b6f858968b24a178f4bc/jcommander-1.35-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2/4b9e37300a87799856e0bd15ed81663cdb6b0947/lwjgl_util-2.9.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2/308d4ebe8d7b240d3490b6a7e0424807ea3ad98b/lwjgl_util-2.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2/a9d80fe5935c7a9149f6584d9777cfd471f65489/lwjgl-2.9.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2/4d114b5ef3ad3bf571b1f090cb00855991067e0b/lwjgl-2.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.badlogicgames.jlayer/jlayer/1.0.1-gdx/7cca83cec5c1b2f011362f4d85aabd71a73b049d/jlayer-1.0.1-gdx.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.badlogicgames.jlayer/jlayer/1.0.1-gdx/f1c4ffebc5e4f68be914404faab580c20de8ea1f/jlayer-1.0.1-gdx-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jcraft/jorbis/0.0.17/8872d22b293e8f5d7d56ff92be966e6dc28ebdc6/jorbis-0.0.17.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jcraft/jorbis/0.0.17/5446be5d62e4c6b347c8e6cd28dc00a936417ba2/jorbis-0.0.17-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.1/9ef6656259841cebfb9fb0697bb122ada4485498/annotations-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-metadata/13.2/61e5df2f2acf44ea45558d94bbf22ed2de28493d/gt-metadata-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-metadata/13.2/a9d30e03fe7ad49c1ca924fb0b226e072efe234/gt-metadata-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-opengis/13.2/fa7aaf3e9f7a5df9cf7f08eedab72a714fc8fe9c/gt-opengis-13.2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.geotools/gt-opengis/13.2/ab5b3ad2dbc1e53652ae44c1a87b495ba7d9e5a/gt-opengis-13.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/java3d/vecmath/1.3.2/e4d732b23a42927952877d067fcf8ca617547bd2/vecmath-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/commons-pool/commons-pool/1.5.4/75b6e20c596ed2945a259cea26d7fadd298398e6/commons-pool-1.5.4.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/commons-pool/commons-pool/1.5.4/3e226507788e09f02eef641e868624fb823af6e6/commons-pool-1.5.4-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/jgridshift/jgridshift/1.0/82c163e82b1548c93a9e866dcfd24c66c590a829/jgridshift-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jaitools/jt-zonalstats/1.3.1/23e6631f01d552f1b22e862c2d282772712ae896/jt-zonalstats-1.3.1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jaitools/jt-zonalstats/1.3.1/ce7e409ba04a83b0ce0e113b3d7728ec0949e3cd/jt-zonalstats-1.3.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jaitools/jt-utils/1.3.1/8d7a91f7eec2c76e357b4b0a0118256b6c37ec3/jt-utils-1.3.1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.jaitools/jt-utils/1.3.1/bf5a70edf8f98db69d68e07af4261b0bd17a3367/jt-utils-1.3.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.vividsolutions/jts/1.13/3ccfb9b60f04d71add996a666ceb8902904fd805/jts-1.13.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/com.vividsolutions/jts/1.13/ee922fa0a39de08d193337739d336779e3dfa774/jts-1.13-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-utilities/1.1.11/cb5ba09ec5d44ec5100c7a9b0a5833d238683224/imageio-ext-utilities-1.1.11.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-utilities/1.1.11/8c7e41ab530731a5b08b5c4544b498ea231db38b/imageio-ext-utilities-1.1.11-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/c3p0/c3p0/0.9.1.1/302704f30c6e7abb7a0457f7771739e03c973e80/c3p0-0.9.1.1.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/c3p0/c3p0/0.9.1.1/5a069468419fe3910c80d13a8971fd50ff2c77a6/c3p0-0.9.1.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2/510c7d317f5e9e700b9cfaac5fd38bdebf0702e0/lwjgl-platform-2.9.2-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2/d276cdf61fe2b516c7b7f4aa1b8dea91dbdc8d56/lwjgl-platform-2.9.2-natives-linux.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2/d55b46b40b40249d627a83a7f7f22649709d70c3/lwjgl-platform-2.9.2-natives-osx.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/82604cfeb87b9ab70ed70aa19a137de8ceb21504/jinput-2.0.5-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/d18678a00b216863206a1bb6190507e02a32971b/jutils-1.0.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.dev.jsr-275/jsr-275/1.0-beta-2/7bdd90125e67cd38bee363208e32993c0c75e9be/jsr-275-1.0-beta-2.jar" sourcepath="D:/Dev/gradle-4.6/data/caches/modules-2/files-2.1/net.java.dev.jsr-275/jsr-275/1.0-beta-2/d6ad47c9432e76c6f727fd10e1128e919033dd60/jsr-275-1.0-beta-2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/midas.core"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>
