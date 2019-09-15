@@ -95,7 +95,7 @@ public class GlobCover implements LanduseProvider
 			    
 			}
 			
-			legend.put(0, new Color(0.5f, 0.5f, 0.5f, 1));
+			//legend.put(0, new Color(0.5f, 0.5f, 0.5f, 1));
 		} catch( IOException e )
 		{
 			// TODO Auto-generated catch block

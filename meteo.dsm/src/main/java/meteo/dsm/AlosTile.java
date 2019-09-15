@@ -253,7 +253,7 @@ public class AlosTile
 				colors[x][y] = landuse.getColor(landuseCodes[x][y]);
 				
 				if( colors[x][y] == null)
-					colors[x][y] = Color.RED;
+					colors[x][y] = Color.BLACK;
 				
 			}
 		
