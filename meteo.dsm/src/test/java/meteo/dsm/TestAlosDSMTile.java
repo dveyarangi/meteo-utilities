@@ -14,8 +14,6 @@ import org.geotools.coverage.grid.GridGeometry2D;
 import org.imgscalr.Scalr;
 import org.junit.Test;
 
-import meteo.dsm.AlosCfg;
-import meteo.dsm.AlosTile;
 import midas.visual.gis.GISResources;
 import midas.visual.gis.MapRenderer;
 import midas.visual.gis.PoliticalMapLayerConf;
@@ -34,7 +32,7 @@ public class TestAlosDSMTile
 	{
 		AlosCfg cfg = new AlosCfg();
 		
-		AlosTile tile = new AlosTile(cfg.getDataDir(), 32, 34);
+		AlosTile tile = new AlosTile(cfg, 32, 34);
 		
 		GridCoverage2D grid = tile.readDSMGrid();
 		
